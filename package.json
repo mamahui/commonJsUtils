@@ -1,0 +1,22 @@
+{
+  "name": "mhutils",
+  "version": "1.0.0",
+  "description": "utils es6 javasript clone extend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mamahui/commonJsUtils.git"
+  },
+  "keywords": [
+    "utils"
+  ],
+  "author": "mahui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mamahui/commonJsUtils/issues"
+  },
+  "homepage": "https://github.com/mamahui/commonJsUtils#readme"
+}
