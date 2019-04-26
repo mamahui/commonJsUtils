@@ -7,11 +7,11 @@ const path = require('path');
 const cleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports={
-    entry: path.join(__dirname, './index'),
+    entry: path.join(__dirname, './src/utils/index'),
     output:{
         libraryTarget: "umd",
-        filename: '[name][hash:5].js',
-        path: path.resolve(__dirname, 'dist'),
+        filename: '[name].js',
+        path: path.resolve(__dirname, './dist'),
     },
     module: {
         rules: [

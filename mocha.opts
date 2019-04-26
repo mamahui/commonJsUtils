@@ -1,0 +1,4 @@
+--require ./node_modules/@babel/register
+--recursive
+--reporter mochawesome
+--bail
